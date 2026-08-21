@@ -77,7 +77,7 @@ export default async function DashboardPage() {
             <TipoRow icon={Star} label="Titular" value={s.porTipo.titular} total={s.totalSocios} color="bg-primary-600" />
             <TipoRow icon={CircleUser} label="Activo" value={s.porTipo.activo} total={s.totalSocios} color="bg-secondary-500" />
           </div>
-          <p className="text-xs text-gray-400 mt-4">Los socios Fundadores son honorarios (no pagan cuota).</p>
+          <p className="text-xs text-gray-400 mt-4">Los Fundadores abonan la misma cuota que los Titulares.</p>
         </div>
 
         {/* Cuotas por vencer */}

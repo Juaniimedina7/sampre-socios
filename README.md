@@ -101,7 +101,7 @@ Precios de cuota (fuente: landing de SAMPRE):
 |---|---|---|
 | Activo | $8.000 | $60.000 |
 | Titular | $10.000 | $80.000 |
-| Fundador | Honorario (no paga) | — |
+| Fundador | $10.000 | $80.000 |
 
 Los 73 socios del Excel original (`socios sampre 2026.xlsx`) ya fueron importados.
 

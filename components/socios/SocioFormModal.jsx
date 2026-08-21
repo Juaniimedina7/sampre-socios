@@ -83,7 +83,7 @@ export default function SocioFormModal({ socio, onClose }) {
 
             <Campo label="Período de pago">
               <select name="periodo_pago" defaultValue={socio?.periodo_pago || ''} className={inputCls}>
-                <option value="">— (Fundador / sin cuota)</option>
+                <option value="">— (sin definir)</option>
                 {PERIODOS.map((p) => (
                   <option key={p} value={p}>{LABEL_PERIODO[p]}</option>
                 ))}
